@@ -62,11 +62,14 @@ body {
 }
 
 .grid-experience .grid-item:nth-child(odd):before {
-	content: '⚫';
+	content: '';
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
 	position: absolute;
-	left: -38px;
-	font-size: 30px;
-	color: #090a8b;
+	left: -36px;
+	top: 5px;
+	background-color: #090a8b;
 }
 
 .person-info p {
