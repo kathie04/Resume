@@ -23,6 +23,15 @@ body {
 	padding: 0 25px;
 }
 
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
 .grid {
 	display: grid;
 	grid-template-columns: 1fr 4fr;
