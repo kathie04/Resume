@@ -19,22 +19,14 @@ body {
 
 .container {
 	max-width: 1200px;
-	margin-right: auto;
-	margin-left: auto;
-	padding-left: 25px;
-	padding-right: 25px;
-}
-
-.container-header {
-	max-width: 950px;
-	margin-right: auto;
-	margin-left: auto;
+	margin: 0 auto;
+	padding: 0 25px;
 }
 
 .grid {
 	display: grid;
 	grid-template-columns: 1fr 4fr;
-	grid-gap: 50px;
+	grid-gap: 20px;
 }
 .layout {
 	display: flex;
